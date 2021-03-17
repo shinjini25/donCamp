@@ -1,0 +1,238 @@
+/* general */
+body{
+  font-family: "Montserrat";
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Bold";
+}
+h1{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+h3{
+  font-weight: bold;
+  font-weight: bolder;
+   font-family: "Montserrat-light";
+}
+h5{
+font-weight: bolder;
+ font-family: "Montserrat-light";
+ }
+.container-fluid
+{
+padding: 3% 15% 7%;
+}
+
+/* colored btn */
+
+.coloured-btn {
+  display: inline-block;
+  padding: 15px 45px 15px 45px;
+  border-radius: 50px;
+  background: #4154f1;
+  color: white;
+  font-size: 1.5 rem;
+  font-weight: 400;
+  font-weight: 700;
+  border: 1.3px solid #4154f1;
+}
+.pay-btn {
+ display: inline-block;
+  padding: 15px 45px 15px 45px;
+  border-radius: 50px;
+  background: #f6f9ff;
+  color: #4154f1 ;
+  font-size: 1.5 rem;
+  font-weight: 400;
+  font-weight: 700;
+  border: 1.3px solid #4154f1;
+}
+.read-btn{
+ background-color:  ;
+ border: 1px solid #4154f1;
+ color: #4154f1;
+ border-radius: 50px;
+
+}
+.read-btn:hover {
+  background: #4154f1;
+  color: #fff;
+}
+
+/* colored  */
+
+.coloured-text{
+color:#4154f1;
+}
+.donate-bg{
+height: 100vh;
+color: black;
+}
+.coloured-section{
+background-color: #d9f7f7;
+color: black;
+height: 100vh;
+}
+.white-section{ background-color: black;
+background-image: -webkit-linear-gradient(35deg,  #f6f9ff 50%, white 50%);
+height: 100vh;
+color: #4154f1;
+}
+.donate-coloured-section{
+background-color: #4154f1 ;
+color: #f6f9ff ;
+}
+.donation-container{
+background-color: #f6f9ff;
+}
+
+/* nav */
+
+.navbar{
+padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+
+}
+.nav-item{
+  padding: 0 12px;
+}
+.nav-link{
+  font-size: 1.6rem !important;
+  font-family: "Montserrat-light";
+  font-weight: bolder;
+  color: black;
+}
+
+/* images */
+
+.title-image{
+  width: 93%;
+  height: 98%;
+  position: absolute;
+  margin-bottom: 95px;
+  margin-left: 170px;
+}
+.about-img{
+width: 90%;
+height: 68%;
+margin-top: 75px;
+}
+
+
+/* about  */
+
+.about .content {
+  background-color: #f6f9ff;
+  padding: 50px;
+  margin: 25px;
+}
+.about h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+.about h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #012970;
+}
+.about p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+.about .btn-read-more {
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  color: #fff;
+  background: #4154f1;
+  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+}
+.about .btn-read-more span {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.about .btn-read-more i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+/* features */
+
+#features
+{
+  padding: 2% 15% 2%;
+  font-size: 1.2rem;
+  font-weight: bolder;
+}
+.feature-color{
+color: #4154f1;
+}
+.feature-box{
+  text-align: center;
+  padding: 3%;
+  margin-top: 30px;
+
+}
+
+/* cards */
+.card-img-top {
+width: 100%;
+height: 15vw;
+object-fit: cover;
+}
+.card-bg{
+background: #f6f9ff ;
+color: black;
+}
+
+
+/* testimonials */
+
+#testimonials{
+text-align: center;
+background-color: #f6f9ff;
+}
+.carousel-item{
+padding: 7% 10%;
+}
+.carousel-control-prev, .carousel-control-next{
+ filter: invert(100%);
+}
+/* media queries  */
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* footer */
+
+#footer{
+  padding: 3% 15%;
+  text-align: center;
+  background-color: #4154f1 ;
+  color: white;
+
+}
+.social-icon {
+  margin: 10px 10px;
+}
